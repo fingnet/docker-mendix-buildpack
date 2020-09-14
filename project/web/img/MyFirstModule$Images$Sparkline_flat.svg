@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="207px" height="3px" viewBox="0 0 207 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css" media="screen">  
+        <![CDATA[  
+        #Line {            
+    		stroke-dasharray: 1000px;
+    		stroke-dashoffset: 1000px;
+            animation: draw 1.5s infinite forwards normal linear;
+        }
+        @keyframes draw {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+        ]]>  
+    </style> 
+    <defs>
+        <linearGradient x1="96.8513908%" y1="50%" x2="20.4884959%" y2="50.0005097%" id="linearGradient-1">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sparkline-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M1,1.5 L205.539062,1.5" id="Line" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+    </g>
+</svg>

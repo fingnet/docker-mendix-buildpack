@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="207px" height="27px" viewBox="0 0 207 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css" media="screen">  
+        <![CDATA[  
+        #Line {            
+    		stroke-dasharray: 1000px;
+    		stroke-dashoffset: 1000px;
+            animation: draw 1.5s infinite forwards normal linear;
+        }
+        @keyframes draw {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+        ]]>  
+    </style> 
+    <defs>
+        <linearGradient x1="96.8513908%" y1="50%" x2="20.4884959%" y2="50.2896821%" id="linearGradient-1">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sparkline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <polyline id="Line" stroke="url(#linearGradient-1)" stroke-width="2" points="1 25.8388672 26.2708599 2 48.8103417 13.9194336 86.4472354 13.9194336 117.19956 22.8042291 145.152126 16.6510206 180.113265 19.7349957 205.539062 25.8388672"></polyline>
+    </g>
+</svg>

@@ -1,0 +1,141 @@
+$font-size-huge: 45px;
+$font-size-extra-large: 35px;
+$font-size-large: 24px;
+$font-size-medium: 16px;
+$font-size-small: 13px;
+$font-size-extra-small: 12px;
+
+
+.layout-atlas .region-sidebar {
+    background-image: linear-gradient(-180deg, #0D2239 0%, #0A1726 100%);
+}
+
+.layout-atlas-responsive-default .region-sidebar .mx-scrollcontainer-wrapper>.mx-navigationtree .navbar-inner>ul>li>a {
+    opacity: 0.89;
+    background-image: linear-gradient(-132deg, #1DC7FF 0%, #0B42C8 100%);
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.layout-atlas-responsive-default .region-sidebar .mx-scrollcontainer-wrapper>.mx-navigationtree .navbar-inner>ul>li>a.active .glyphicon {
+    background-image: linear-gradient(-180deg, #FAD961 0%, #F76B1C 100%);
+    border-radius: 54px 54px 54px 0 0 0 54px;
+}
+
+.card.card-heart {
+    background-image: radial-gradient(51% 101%, #153455 49%, #161F34 100%);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    min-height: 280px;
+    z-index: 2;
+
+    .mx-dataview .mx-dataview-controls {
+        border: none;
+    }
+
+    .card-heart-top-left-details {
+        display: flex;
+        align-items: center;
+
+        .card-heart-day-text {
+            font-weight: 700;
+            font-size: 40px;
+            text-transform: capitalize;
+        }
+
+        .card-heart-sub-details {
+            opacity: 0.6;
+            font-size: 12px;
+            margin-left: 10px;
+            flex: 1;
+
+            .card-heart-date-text {
+                display: block;
+            }
+
+            .card-heart-person-text {
+                display: block;
+            }
+        }
+
+        .card-heart-icon-run {}
+    }
+
+    .card-heart-content {
+        z-index: 2;
+
+        .card-heart-ring {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 200px;
+            border: 1px dashed #5399E7;
+            box-shadow: 0 0 4px 1px rgba(65, 159, 237, 0.30);
+            opacity: 0.9;
+            width: 200px;
+            height: 200px;
+            margin: 25px auto auto auto;
+
+            .card-heart-icon-heart {
+                margin-top: auto;
+            }            
+
+            .card-heart-ring-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: auto;
+                .card-heart-bpm-active-text {
+                    font-weight: 800;
+                    display: block;
+                    font-size: 40px;
+                }
+                .card-heart-bpm-label-text {
+                    display: block;
+                    opacity: 0.6;
+                    font-size: $font-size-extra-small;
+                }
+            }
+        }
+    }
+    
+    .card-heart-footer {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        
+        .card-heart-icon-down {}
+
+        .cart-heart-spark-line {
+            flex: 1;
+            height: 27px;
+            padding: 5px 20px;
+            img{
+                margin: auto;
+            }
+            animation: draw 1.5s infinite forwards normal linear;
+        }
+        .card-heart-minutes-text {}
+    }
+
+    @keyframes draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+    }
+
+    .card-heart-background {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -99;
+    }
+}

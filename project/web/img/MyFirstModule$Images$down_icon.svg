@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>down_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="down_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-down" fill="url(#linearGradient-1)">
+            <g id="Arrow-down">
+                <path d="M6.00403065,20 C6.22515914,19.9805217 6.48671399,19.8939478 6.62892277,19.7717218 L11.6280697,15.5978097 C12.0717798,15.190888 12.1115796,14.5572534 11.7843661,14.1303665 C11.4571559,13.7035144 10.7872715,13.6258449 10.3782855,13.9673752 L7.00386804,16.7826094 L7.00386804,9.04347803 C7.00386804,8.46716512 6.55620199,8 6.00403065,8 C5.45182599,8 5.00420327,8.46716512 5.00420327,9.04347803 L5.00420327,16.7826094 L1.62978584,13.9673752 C1.22082311,13.6258449 0.566036156,13.7166275 0.223728586,14.1303665 C-0.148273857,14.5799316 -0.029027777,15.2563836 0.380001607,15.5978097 L5.37913854,19.7717218 C5.58630277,19.9483826 5.73837652,19.9969043 6.00403065,20 Z" id="Shape" fill-rule="nonzero"></path>
+                <circle id="Oval-2" cx="6" cy="5" r="1"></circle>
+                <circle id="Oval-2" cx="6" cy="1" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

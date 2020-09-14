@@ -1,0 +1,36 @@
+{
+  "watchFolders": [
+    "C:/Users/qs0qdd/AppData/Local/Temp/lstknozp.mnb/theme",
+    "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules"
+  ],
+  "resolver": {
+    "extraNodeModules": {
+      "externalWidgets": "C:/Users/qs0qdd/AppData/Local/Temp/lstknozp.mnb/deployment/native/externalWidgets",
+      "@babel/runtime": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/@babel/runtime",
+      "mendix": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/mendix",
+      "react": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react",
+      "react-native-gesture-handler": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-gesture-handler",
+      "react-native": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native",
+      "react-native-ble-plx": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-ble-plx",
+      "react-native-calendar-events": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-calendar-events",
+      "react-native-camera": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-camera",
+      "react-native-device-info": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-device-info",
+      "react-native-firebase": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-firebase",
+      "react-native-geocoder": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-geocoder",
+      "react-native-image-picker": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-image-picker",
+      "react-native-inappbrowser-reborn": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-inappbrowser-reborn",
+      "react-native-maps": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-maps",
+      "react-navigation": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-navigation",
+      "react-native-sound": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-sound",
+      "react-native-svg": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-svg",
+      "react-native-tab-view": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-tab-view",
+      "react-native-touch-id": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-touch-id",
+      "react-native-vector-icons": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-vector-icons",
+      "react-native-video": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-video",
+      "react-native-view-shot": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-view-shot",
+      "react-native-webview": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/react-native-webview",
+      "@react-native-community/async-storage": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/@react-native-community/async-storage",
+      "@react-native-community/netinfo": "D:/Sofeware/Mendix/Mendix-8.0.0.56467/modeler/tools/node/node_modules/@react-native-community/netinfo"
+    }
+  }
+}
